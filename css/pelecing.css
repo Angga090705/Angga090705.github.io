@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    padding: 40px;
+}
+
+.container img {
+    width: 70%;
+    height: 350px;
+    padding: 30px;
+    margin-left: 125px;
+}
+
+ h4 {
+    text-align: center;
+    color: blue;
+}
+
+.subjudul{
+    margin-left: 20px;
+}
+
+.container p {
+    margin-left: 50px 0;
+    text-align: center;
+}

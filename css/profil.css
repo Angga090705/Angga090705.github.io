@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.body {
+    background-color: aqua;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos {
+    padding: 5px 0;
+    background-color: aqua;
+}
+
+.medsos ul li {
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+.container {
+    width: 80%;
+    margin:0 auto; 
+} 
+.container::after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+
+header {
+    border: 1px solid;
+}
+
+header h1 {
+    padding: 15px 0;
+    float: left;
+    color: aqua;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: aqua;
+    color: #fff;
+}
+.active {
+    background-color: aqua;
+    color: #fff;
+}
+
+.image img {
+    padding: 60px;
+    width: 250px;
+    height: 250px;
+    margin-left: 38%;
+}
+
+section h3 {
+    text-align: center;
+    padding: 25px 0;
+    color: rgb(6, 6, 6);
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.container img{
+    padding: 25px;
+    width: 80%;
+    height: 1000px;
+    margin-left: 85px;
+}
+
+.footer p {
+    text-align: center;
+    padding: 6px;
+}
